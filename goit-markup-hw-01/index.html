@@ -3,68 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="websdudio">WebStudio</a>
-        <ul>
+    <header class="header">
+      <nav class="header_navigation">
+        <a class="header_nav_logo" href="websdudio">WebStudio</a>
+        <ul class="heder_list">
           <li>
-            <a href="studio">Studio</a>
+            <a class="heder_list_item" href="studio">Studio</a>
           </li>
           <li>
-            <a href="portfolio">Portfolio</a>
+            <a class="heder_list_item" href="portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="contacts">Contacts</a>
+            <a class="heder_list_item" href="contacts">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
+      <address class="address">
+        <ul class="address_link">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="address_link_item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="address_link_item" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
-    <main>
-      <section>
+    <main class="main_title">
+      <section class="main_title">
         <ul>
-          <h2>Effective Solutions for Your Business</h2>
-          <button type="button">Order Service</button>
+          <h1 class="first_title">Effective Solutions for Your Business</h1>
+          <button type="button" class="first_button">Order Service</button>
         </ul>
       </section>
       <section>
-        <h3>Strategy</h3>
-        <ul>
-          <li>
-            <p>
+        <ul class="section_two_list">
+          <h3 class="section_two_title">Strategy</h3>
+          <li class="section_two_list_item">
+            <p class="section_twoy_info">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <h3>Punctuality</h3>
-          <li>
-            <p>
+          <h3 class="section_two_title">Punctuality</h3>
+          <li class="section_two_list_item">
+            <p class="section_two_info">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <h3>Diligence</h3>
-          <li>
-            <p>
+          <h3 class="section_two_title">Diligence</h3>
+          <li class="section_two_list_item">
+            <p class="section_two_info">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <h3>Technologies</h3>
-          <li>
-            <p>
+          <h3 class="section_two_title">Technologies</h3>
+          <li class="section_two_list_item">
+            <p class="section_two_info">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -72,122 +82,131 @@
         </ul>
       </section>
       <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+        <h2 class="team_title">Our Team</h2>
+        <ul class="team_list">
+          <li class="team_list_item">
             <img
-              src="/img/MarkGuerrero.jpg"
+              class="team_images"
+              src="./images/MarkGuerrero.jpg"
               width="264"
               height="260"
               alt="foto Mark Guerrero"
             />
-            <h4>Mark Guerrero</h4>
-            <p>Product Designer</p>
+            <h4 class="team_name">Mark Guerrero</h4>
+            <p class="team_info">Product Designer</p>
           </li>
-          <li>
+          <li class="team_list_item">
             <img
-              src="/img/TomFord.jpg"
+              class="team_images"
+              src="./images/TomFord.jpg"
               width="264"
               height="260"
               alt="foto Tom Ford"
             />
-            <h4>Tom Ford</h4>
-            <p>Frontend Developer</p>
+            <h4 class="team_name">Tom Ford</h4>
+            <p class="team_info">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team_list_item">
             <img
-              src="/img/CamilaGarcia.jpg"
+              class="team_images"
+              src="./images/CamilaGarcia.jpg"
               width="264"
               height="260"
               alt="foto Camila Garcia"
             />
-            <h4>Camila Garcia</h4>
-            <p>Marketing</p>
-            Copy
+            <h4 class="team_name">Camila Garcia</h4>
+            <p class="team_info">Marketing</p>
           </li>
-          <li>
+          <li class="team_list_item">
             <img
-              src="/img/DanielWilson.jpg"
+              class="team_images"
+              src="./images/DanielWilson.jpg"
               width="264"
               height="260"
               alt="foto Daniel Wilson"
             />
-            <h4>Daniel Wilson</h4>
-            <p>UI Designer</p>
+            <h4 class="team_name">Daniel Wilson</h4>
+            <p class="team_info">UI Designer</p>
           </li>
         </ul>
       </section>
       <section>
-        <h2>Our Portfolio</h2>
-        <ul>
-          <li>
+        <h2 class="portfolio">Our Portfolio</h2>
+        <ul class="portfolio_list">
+          <li class="portfolio_list_item">
             <img
-              src="/goit-markup-hw-01/img/bankapp.jpg"
+              class="portfolio_images"
+              src="./images/bankapp.jpg"
               width="360"
               height="300"
               alt="Banking App"
             />
-            <h4>Banking App</h4>
-            <p>App</p>
+            <h4 class="portfolio_name_img">Banking App</h4>
+            <p class="portfolio_info_img">App</p>
           </li>
-          <li>
+          <li class="portfolio_list_item">
             <img
-              src="/goit-markup-hw-01/img/cashles.jpg"
+              class="portfolio_images"
+              src="./images/cashles.jpg"
               width="360"
               height="300"
               alt="Cashless Payment"
             />
-            <h4>Cashless Payment</h4>
-            <p>Marketing</p>
+            <h4 class="portfolio_name_img">Cashless Payment</h4>
+            <p class="portfolio_info_img">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio_list_item">
             <img
-              src="/goit-markup-hw-01/img/medita.jpg"
+              class="portfolio_images"
+              src="./images/medita.jpg"
               width="360"
               height="300"
               alt="Meditation App"
             />
-            <h4>Meditation App</h4>
-            <p>App</p>
+            <h4 class="portfolio_name_img">Meditation App</h4>
+            <p class="portfolio_info_img">App</p>
           </li>
-          <li>
+          <li class="portfolio_list_item">
             <img
-              src="/goit-markup-hw-01/img/taxiserv.jpg"
+              class="portfolio_images"
+              src="./images/taxiserv.jpg"
               width="360"
               height="300"
               alt="Taxi Service"
             />
-            <h4>Taxi Service</h4>
-            <p>Marketing</p>
+            <h4 class="portfolio_name_img">Taxi Service</h4>
+            <p class="portfolio_info_img">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio_list_item">
             <img
-              src="/goit-markup-hw-01/img/screenill.jpg"
+              class="portfolio_images"
+              src="./images/screenill.jpg"
               width="360"
               height="300"
               alt="Screen Illustrations"
             />
-            <h4>Screen Illustrationsp</h4>
-            <p>Design</p>
+            <h4 class="portfolio_name_img">Screen Illustrationsp</h4>
+            <p class="portfolio_info_img">Design</p>
           </li>
-          <li>
+          <li class="portfolio_list_item">
             <img
-              src="/goit-markup-hw-01/img/online.jpg"
+              class="portfolio_images"
+              src="./images/online.jpg"
               width="360"
               height="300"
               alt="Online Courses"
             />
-            <h4>Online Courses</h4>
-            <p>Marketing</p>
+            <h4 class="portfolio_name_img">Online Courses</h4>
+            <p class="portfolio_info_img">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="websdudio">WebStudio</a>
-      <ul>
-        <li>
-          <p>
+      <a class="footer_title" href="websdudio">WebStudio</a>
+      <ul class="footer_list">
+        <li class="footer_list_item">
+          <p class="footer_info">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
           </p>
