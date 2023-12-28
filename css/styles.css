@@ -24,7 +24,7 @@ ul{
         text-transform: uppercase;
 }
 .logo_name{
-        color: var(--CLOUD, #F4F4FD);
+        color: var(--NAVY-BLUE, #2E2F42);
                 font-family: Raleway;
                 font-size: 18px;
                 line-height: 1.17;
