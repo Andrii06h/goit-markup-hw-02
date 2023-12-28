@@ -10,6 +10,11 @@ a{
 ul{
         list-style: none;
 }
+.conteiner{
+        max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+}
 .header_nav_logo{
         color: var(--IRIS, #4D5AE5);
         font-family: 'Raleway' sans-serif;
