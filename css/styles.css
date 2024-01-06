@@ -3,26 +3,56 @@ body{
         color: #434455;
         background: #FFF;
 }
+p, h1, h2, h3, h4, h5, h6 {
+margin-bottom: 0;
+}
 a{
         text-decoration: none;
         font-weight: 500;
+        color: currentColor;
 }
 ul{
         list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+}
+button{
+        cursor: pointer;
+}
+address{
+        font-style: normal;
 }
 .conteiner{
         max-width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
+        display: flex;
+        align-items: center;
+       
 }
 .header_nav_logo{
         color: var(--IRIS, #4D5AE5);
         font-family: 'Raleway' sans-serif;
         font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: flex;
+        margin-right: 76px;
+        align-items: center;
 }
+.heder_list{
+        display: flex;
+        gap: 40px;
+}
+.address_link{
+        display: flex;
+  gap: 40px;
+}
+
 .logo_name{
         color: var(--NAVY-BLUE, #2E2F42);
                 font-family: Raleway;
